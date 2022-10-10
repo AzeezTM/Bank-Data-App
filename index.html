@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body style="background-color: khaki;">
+    <form onsubmit="replacement(event)" class="form mx-auto p-2">
+        <h2>Bank Registration</h2>
+        <label for="">Account Name</label>
+        <input type="text" class="form-control" id="name" placeholder="your name">
+        <br>
+        <label for="">Account Type</label>
+        <input type="text" class="form-control" id="type" placeholder="savings or current">
+        <br>
+        Date
+        <input type="date" class="form-control" id="date">
+        <br>
+        <button type="button" class="botton btn btn-success " onclick="Addafter()">submit</button>
+        <!-- <button type="button" class="btn btn-info" onclick="addAfter()">Add After</button>
+        <button class="btn btn-warning" >Replace content</button>
+        <button type="button" class="btn btn-danger" onclick="clearAll()">clear All</button> -->
+    </form><br>
+
+    <main style="width: 900px; margin: auto;">
+        <h1 class="bg-success">Bank Data</h1>
+        <table class="table">
+            <tr>
+                <td>
+                    <h4>Account name</h4>
+                </td>
+                <td style="width: 350px">
+                    <h4>Account type</h4>
+                </td>
+                <td>
+                    <h4>Date</h4>
+                </td>
+            </tr>
+            <tbody id="kunle"></tbody>
+        </table>
+    </main>
+
+
+</body>
+
+</html>
+<script src="main.js"></script>

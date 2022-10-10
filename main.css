@@ -1,0 +1,23 @@
+
+.botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 585px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    width: 600px;
+    background-color: goldenrod;
+    margin-top: 40px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
